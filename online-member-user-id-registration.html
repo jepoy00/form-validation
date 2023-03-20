@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="javascript.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form id="form">
+            <h2>Online Member User ID Registration</h2>
+            <div class="form-control">
+                <label for="first">Given Name</label>
+                <input id="given" name="given" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="form-control">
+                <label for="last">Last Name</label>
+                <input id="last" name="last" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="form-control">
+                <label for="middle">Middle Name</label>
+                <input id="middle" name="middle" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="form-control">
+                <label for="id">User ID</label>
+                <input id="id" name="id" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="form-control">
+                <label for="id2">Confirm User ID</label>
+                <input id="id2" name="id2" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="form-control">
+                <label for="bdate">Birthdate</label>
+                <input id="bdate" name="bdate" type="text" placeholder="MM/DD/YYYY   (EX. 01/15/2002)">
+                <div class="error"></div>
+            </div>
+            <div class="form-control">
+                <input id="box1" name="box1" type="checkbox">
+                <label for="box1">I accept the Terms of Service</label>
+                <div class="error"></div>
+            </div>
+            <button type="submit" id="button">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
